@@ -1,0 +1,115 @@
+/* Tablet View */
+@media(max-width:900px) {
+  .left {
+    width: 100%;
+  }
+  .search input {
+    min-width: 140px;
+  }
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero .visual {
+    width: 100%;
+    min-height: 160px;
+  }
+  .meta h2 {
+    font-size: 18px;
+  }
+  
+}
+
+/* Mobile View */
+@media(max-width:680px) {
+    
+  .main {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .left {
+    width: 100%;
+    order: 2; /* Market list niche chala jayega */
+  }
+  .center {
+    order: 1;
+  }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .search {
+    margin-left: 0;
+    width: 100%;
+  }
+  .search input {
+    width: 100%;
+  }
+  .hero {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .hero .visual {
+    width: 100%;
+    min-height: 120px;
+  }
+  .hero .meta {
+    width: 100%;
+    text-align: center;
+  }
+  .tick-row {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
+  .actions {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .action {
+    width: 64px;
+    height: 64px;
+  }
+  .panel-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .quick-buy {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    text-align: center;
+  }
+  .bottom-nav {
+    height: 70px;
+    padding: 8px 12px;
+  }
+  .nav-item {
+    font-size: 12px;
+  }
+  .nav-item .ico {
+    font-size: 16px;
+  }
+}
+
+/* Extra Small (<=480px) */
+@media(max-width:480px) {
+  body {
+    font-size: 14px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .logo {
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+  }
+  .card-number {
+    font-size: 18px;
+  }
+  .holder-name, .expiry {
+    font-size: 12px;
+  }
+}
